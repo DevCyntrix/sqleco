@@ -1,6 +1,8 @@
 name: 'SQLEco'
-version: 1.0.0
-author: DevCyntrix
-main: de.devcyntrix.sqleco.SQLEcoPlugin
+version: ${projectVersion}
+author: 'DevCyntrix'
+description: 'A vault economy implementation using mariadb/mysql'
+main: 'de.devcyntrix.sqleco.SQLEcoPlugin'
+api-version: 1.20
 depend:
   - Vault

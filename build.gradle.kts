@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "de.devcyntrix"
-version = "1.0-SNAPSHOT"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
@@ -25,4 +25,12 @@ java {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+tasks.processResources {
+    filteringCharset = Charsets.UTF_8.name()
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+    filesMatching("plugin.yml") {
+        expand(Pair("projectVersion", project.version))
+    }
 }
