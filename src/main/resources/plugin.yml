@@ -1,0 +1,6 @@
+name: 'SQLEco'
+version: 1.0.0
+author: DevCyntrix
+main: de.devcyntrix.sqleco.SQLEcoPlugin
+depend:
+  - Vault
