@@ -1,6 +1,6 @@
-package de.devcyntrix.sqleco;
+package de.devcyntrix.sqleco.api.storage;
 
-import org.bukkit.entity.Player;
+import de.devcyntrix.sqleco.model.PlayerAccount;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

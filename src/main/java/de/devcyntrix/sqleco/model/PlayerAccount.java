@@ -1,4 +1,4 @@
-package de.devcyntrix.sqleco;
+package de.devcyntrix.sqleco.model;
 
 import java.util.UUID;
 

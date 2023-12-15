@@ -1,5 +1,7 @@
-package de.devcyntrix.sqleco;
+package de.devcyntrix.sqleco.storage;
 
+import de.devcyntrix.sqleco.api.storage.PlayerAccountStorage;
+import de.devcyntrix.sqleco.model.PlayerAccount;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

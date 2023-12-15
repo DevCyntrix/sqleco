@@ -1,5 +1,6 @@
 package de.devcyntrix.sqleco;
 
+import de.devcyntrix.sqleco.model.PlayerAccount;
 import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.economy.EconomyResponse;
 import org.bukkit.Bukkit;
